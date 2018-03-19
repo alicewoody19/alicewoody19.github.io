@@ -1,0 +1,264 @@
+/* Mobile Version*/
+@media only screen and (min-width : 100px) { 
+nav a {
+	text-decoration:none;
+	display:inline-block;
+	padding:20px 0 20px 20px;
+	background-color:rgb(115, 100, 115);
+	width:90%;
+    text-align: center;
+    font-family: 'Crimson Text', serif;
+    font-size: 14px;
+    color: white;
+}
+
+nav ul {
+	list-style-type:none;
+	padding:0;
+}
+
+nav li {
+	margin:5px;
+    }
+    
+nav ul a, nav ul a:visited { 
+    text-decoration: inherit;
+	color:white;
+	padding:5px;
+	font-size:1.2em;
+}
+nav ul a:hover, nav ul a:active, nav ul a:focus { 
+	background:white;
+    color: #8f34b0;}
+footer{
+  background:rgb(115, 100, 115);
+  padding:0.5em;
+  color:white;
+  text-align: center;
+  font-family: 'Crimson Text', serif;
+  font-size: 16px;
+}
+article{
+    text-align: left;   
+}
+h1{
+    text-align: center;
+    color: purple;
+    font-size: 25px;
+    font-family: 'Lobster', cursive;
+}
+body{
+    border: solid medium;   
+    background-color: rgb(210, 255, 255);
+}
+input[type=text], input[type=email], textarea {
+    box-sizing: border-box;
+    border: 1px solid rgb(199, 0, 190) ; 
+    border-radius: 4px;
+    width: 100%; 
+    padding: 6px;}
+    
+legend{
+        color:   purple;
+    }
+
+button{
+        background-color: purple;
+        color: white;
+    }
+div,achievements {
+    text-align: left;
+}
+h2{
+    text-align:center;
+    color: white;
+    border: solid medium #000;
+    margin: 5px;
+    background-color:rgb(136, 78, 173);
+    font-size: 20px;
+    font-family: 'Cormorant Garamond', serif;
+}
+.position
+{ 
+font-size: 15px;font-family: 'Crimson Text', serif;
+text-align:left;
+}
+}
+
+/* Tablet Sized*/
+@media only screen and (min-width:500px){
+    nav {
+	border: solid #000 ;
+ 	margin: 5px;
+    background-color: rgb(115, 100, 115);
+    text-align: center;
+    font-family: 'Crimson Text', serif;
+    font-size: 14px;
+}
+
+nav ul {
+	list-style: none; 
+	padding:0;
+	margin:0;
+	width:100%;
+	overflow:auto;
+}
+
+nav ul li {
+	width:30%;
+	float:left;
+	margin:0;
+}
+nav ul a, nav ul a:visited { 
+	text-decoration: inherit;
+	color:white;
+	display:grid; 
+	padding:5px;
+	font-size:1.2em;
+}
+nav ul a:hover, nav ul a:active, nav ul a:focus { 
+	background:white;
+    color: #8f34b0;}
+    
+footer{
+  background:rgb(115, 100, 115);
+  padding:0.5em;
+  color:white;
+  text-align: center;
+  font-family: 'Crimson Text', serif;
+  font-size: 18px;
+}
+article{
+    text-align: left;   
+}
+h1{
+    text-align: center;
+    color: purple;
+    font-size: 30px;
+    font-family: 'Lobster', cursive;
+}
+body{
+    border: solid medium;   
+    background-color: rgb(210, 255, 255);
+}
+ input[type=text], input[type=email], textarea{
+    box-sizing: border-box;
+    border: 1px solid rgb(199, 0, 190) ; 
+    border-radius: 4px;
+    width: 100%; 
+    padding: 6px;}
+    
+legend{
+        color: purple;
+      }
+
+button{
+        background-color: purple;
+        color: white;
+      }
+div,achievements {
+    text-align: center;
+}
+h2{
+    text-align:center;
+    color: white;
+    border: solid medium #000;
+    margin: 3px;
+    background-color:rgb(136, 78, 173);
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 22px;
+}
+.position
+{ 
+font-size: 16px;
+font-family: 'Crimson Text', serif;
+
+}
+/* desktop versions*/
+@media only screen and (min-width:1200px){
+nav {
+	border: solid #000 ;
+ 	margin: 5px;
+    background-color: rgb(115, 100, 115);
+    text-align: center;
+    font-family: 'Crimson Text', serif;
+}
+
+nav ul {
+	list-style: none; 
+	padding:0;
+	margin:0;
+	width:100%;
+	overflow:auto;
+}
+
+nav ul li {
+	width:30%;
+	float:left;
+	margin:0;
+}
+
+
+nav ul a, nav ul a:visited { 
+	text-decoration: inherit;
+	color:white;
+	display:grid; 
+	padding:5px;
+	font-size:1.2em;
+}
+
+nav ul a:hover, nav ul a:active, nav ul a:focus { 
+	background:white;
+    color: #8f34b0;
+        }
+footer{
+  background:rgb(115, 100, 115);
+  padding:0.5em;
+  color:white;
+ text-align: center;
+ font-family: 'Crimson Text', serif;
+ font-size: 18px;
+      }
+
+article{
+    text-align: left;   
+}
+h1{
+    text-align: center;
+    color: purple;
+    font-size: 35px;
+    font-family: 'Lobster', cursive;
+}
+body{
+    border: solid medium;   
+    background-color: rgb(210, 255, 255);
+}
+input[type=text], input[type=email], textarea{
+    box-sizing: border-box;
+    border: 1px solid rgb(199, 0, 190) ; 
+    border-radius: 4px;
+    width: 100%; 
+    padding: 6px;}
+
+button{
+    background-color: purple;
+    color: white;
+    }
+div,achievements {
+    text-align: left;
+}
+h2{
+    text-align:center;
+    color: white;
+    border: solid medium #000;
+    margin: 5px;
+    background-color:rgb(136, 78, 173);
+    font-size: 25px;
+    font-family: 'Cormorant Garamond', serif;
+}
+.position
+{ 
+font-size: 17px;
+font-family: 'Crimson Text', serif;
+text-align: left}
+}
